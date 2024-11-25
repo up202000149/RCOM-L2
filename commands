@@ -1,0 +1,10 @@
+tux3
+
+ifconfig eth1 172.16.70.1/24
+ping 172.16.70.1/24 -c 5
+arp -d 172.16.70.1/24
+arp -a
+
+tux4
+
+ifconfig eth1 172.16.70.1/24
